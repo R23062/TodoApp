@@ -41,7 +41,7 @@ export default function App() {
   useEffect(() => {
     addToHistory([
       { type: 'system', content: 'React Terminal OS [Version 1.8.0]' },
-      { type: 'system', content: '(c) React Todo Corporation. All rights reserved.' },
+      { type: 'system', content: 'Toki Shimozono. All rights reserved.' },
       { type: 'info', content: 'Type "help" for system commands.' },
       { type: 'info', content: 'Type "todo help" for task commands.' },
       { type: 'break' },
